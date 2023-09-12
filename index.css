@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.BoxHead {
+    background-color: #40069e;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.title {
+    font-size: 2em;
+    margin: 2em;
+    position: relative;
+}
+
+.jupiterPng {
+    width: 15em;
+    position: absolute;
+    top: 2.8em;
+    
+}
+
+.boxSection {
+    padding: 2em 0 2em 1em;
+    background-color: #e4d7fc;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.5em;
+}
