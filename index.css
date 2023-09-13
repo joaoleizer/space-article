@@ -11,6 +11,7 @@
     justify-content: center;
     width: 100%;
     position: relative;
+    box-shadow: 0em 0.5em 2em #40069e; 
 }
 
 .title {
@@ -26,13 +27,23 @@
     
 }
 
-.boxSection {
+.boxSection, .boxBigRedSpot, .boxJupiterMoons, .boxConclusion {
     padding: 2em 0 2em 1em;
-    background-color: #e4d7fc;
 }
 
-.introduction {
+.boxCharacteristics, .boxRingSystem, .boxSpaceExploration {
+    padding: 2em 0 2em 1em;
+    background-color: #40069e;
+    box-shadow: 0em 1em 2em #40069e83; 
+}
+
+.introduction, .characteristics, .titleRingSystem, .titleSpaceExploration, .titleBigRedSpot, .titleJupiterMoons, .titleConclusion {
     display: flex;
     justify-content: center;
     margin-bottom: 0.5em;
+    transition: 1s;
+}
+
+.imgJupiter, .imgJupiterMoons {
+    margin-top: 1em;
 }
